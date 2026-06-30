@@ -125,8 +125,8 @@ main,.nav,.foot{position:relative;z-index:1}
 .mail{display:inline-block;margin:1.4rem 0 2.2rem;font-weight:700;font-size:clamp(1.5rem,5vw,3rem);letter-spacing:-.02em;
   background-image:var(--grad);background-size:0% 2px;background-position:0 100%;background-repeat:no-repeat;transition:background-size .4s var(--ease)}
 .mail:hover{background-size:100% 2px}
-.contact-tg{display:flex;align-items:center;gap:2.4rem;margin-top:1.4rem;justify-content:center}
-.contact-tg-text{display:flex;flex-direction:column}
+.contact-tg{display:flex;align-items:center;gap:2.4rem;margin-top:1.4rem}
+.contact-tg-text{display:flex;flex-direction:column;align-items:center}
 .tg-qr-link{flex-shrink:0;border-radius:12px;overflow:hidden;opacity:.9;transition:opacity .25s var(--ease),transform .25s var(--ease)}
 .tg-qr-link:hover{opacity:1;transform:scale(1.04)}
 .tg-qr{display:block;border-radius:10px;background:#fff}
